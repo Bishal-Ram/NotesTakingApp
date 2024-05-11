@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Set a light background color for the body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center the content vertically */
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.image {
+  background: url('https://cdn1.vectorstock.com/i/1000x1000/69/60/wooden-background-with-white-note-paper-vector-1186960.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px; /* Set a fixed height for the image */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.submitBTN {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #4caf50; /* Use a green color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+}
+
+.submitBTN:hover {
+  background-color: #45a049; /* Darken the button color on hover */
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
